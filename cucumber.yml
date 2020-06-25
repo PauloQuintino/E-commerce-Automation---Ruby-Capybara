@@ -1,0 +1,10 @@
+---
+default: --profile pretty -p chrome -p json
+
+pretty: --format pretty
+progress: --format progress 
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+html: --format html --out=report/features.html
+json: --format json --out=logs/report.json
