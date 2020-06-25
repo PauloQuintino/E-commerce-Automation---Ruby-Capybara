@@ -12,7 +12,6 @@ Scenario: Do online purchase with success
     |Faded Short Sleeve T-shirts|1       |Blue  |M   |Bank Transfer |
     |Printed Dress              |3       |Orange|L   |Check         |
 
-
 @history
 Scenario: Check purchase in the order history
 Given I access the order history
@@ -20,6 +19,6 @@ Then the order number '<order>' should be visible in the history
 Examples:
 |order    |
 |ANCNLKIHW|
-# |UYFJXNPCQ| 
-# |MWUTQPGRX|
-# |ZRBUWPREG|
+|UYFJXNPCQ| 
+|MWUTQPGRX|
+|ZRBUWPREG|
